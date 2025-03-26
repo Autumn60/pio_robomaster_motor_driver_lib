@@ -15,12 +15,14 @@
 #ifndef ROBOMASTER_MOTOR_DRIVER_LIB__HANDLER_HPP_
 #define ROBOMASTER_MOTOR_DRIVER_LIB__HANDLER_HPP_
 
-#include "motor.hpp"
+#include "robomaster_motor_driver_lib/motor.hpp"
 
 #include <FlexCAN.h>
 
 namespace robomaster_motor_driver_lib
 {
+class Motor;
+
 class Handler
 {
 public:

@@ -15,7 +15,9 @@
 #ifndef ROBOMASTER_MOTOR_DRIVER_LIB__MOTOR_HPP_
 #define ROBOMASTER_MOTOR_DRIVER_LIB__MOTOR_HPP_
 
-#include "handler.hpp"
+#include "robomaster_motor_driver_lib/handler.hpp"
+
+#include <Arduino.h>
 
 namespace robomaster_motor_driver_lib
 {

@@ -14,8 +14,6 @@
 
 #include "robomaster_motor_driver_lib/motor.hpp"
 
-#include <Arduino.h>
-
 namespace robomaster_motor_driver_lib
 {
 Motor::Motor(int id) : id_(id), round_count_(0), angle_bit_last_(-1)
